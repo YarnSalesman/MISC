@@ -20,9 +20,9 @@
   /
   0 00 11111 [B|W|D] ___Overflow (31 + overflow)
     \  \
-	 \  \_Count (max=31)
-	  \
-	   \_Overflow Size (00=No Overflow; 01=BYTE; 10=WORD; 11=DWORD)
+     \  \_Count (max=31)
+      \
+       \_Overflow Size (00=No Overflow; 01=BYTE; 10=WORD; 11=DWORD)
 
 
   POSLEN match codes can also vary in size depending on the POS and LEN:
@@ -33,7 +33,7 @@
   /      /
   1 0000 000 0000 0000 [B|W|D] ___Overflow (LEN)
     \
-	 \_POS bit length (>9 these then represent the overflow size; LEN-POS then holds only POS)
+     \_POS bit length (>9 these then represent the overflow size; LEN-POS then holds only POS)
 
  
   These modifications may not be so beneficial in some instances mind you.
