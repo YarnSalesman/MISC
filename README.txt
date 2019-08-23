@@ -1,0 +1,5 @@
+MISC
+///////////////////////////////////////////////////////////////////////////////////
+
+LZSS.c       - Modified LZSS compression algorithm
+PECHECKSUM.c - PE32 and PE32+ image file checksum algorithm
